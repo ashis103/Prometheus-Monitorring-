@@ -1,3 +1,5 @@
+
+
 **## Essential config files for Obsevability
 
 1. Please create T2 instance from AWS 
@@ -10,7 +12,7 @@
 8. cd observability
 9. docker compose up - d
 10. IP:9090   # promitheos site
-11. Ip:8080  # CAadvisor**
+11. Ip:8080  # CAadvisor** 9100 Node Exporter 
 12. rate(container_cpu_usage_secound_total{name="students-app"}[5m])   # Promitheous Query 
 
 ### Download the prometheus config file  
